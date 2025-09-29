@@ -1,0 +1,24 @@
+﻿.pixelated-render-image {
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.pixelated-render-image__before {
+    padding-top: 75%;
+}
+
+    .pixelated-render-image__before.is--portrait {
+        padding-top: 133.333%;
+    }
+
+.pixelated-render-image__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
